@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: DEV_320_Network_Client_Data_storage_System_rest
+  datasource:
+    url: jdbc:mysql://localhost:3306/client_db
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+      dialect: org.hibernate.dialect.MySQL8Dialect
+server:
+  port: 8001
